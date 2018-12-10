@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    background-color: #CEEBF2;
+}
+
+#navbar {
+    background-color: #2E3840;
+    overflow: hidden;
+}
+
+.navbutton {
+    text-decoration: none;
+    padding: 1em;
+    font-size: 1.5em;
+    font-family: 'Advent Pro';
+    transition-duration: 0.3s;
+    font-weight: bold;
+}
+
+.navbutton:link, .navbutton:visited {
+    color: #CEEBF2;
+    text-align: center;
+}
+
+.navbutton:hover, .navbutton.active {
+    text-decoration: none;
+    background-color: #CEEBF2;
+    color: #2E3840;
+}
+
+#name {
+    font-family: 'Advent Pro';
+    color: #CEEBF2;
+    font-size: 3em;
+    float: left;
+    padding-left: 0.5em;
+}
+
+#buttonAlignment {
+    float: right;
+    list-style-type: none;
+}
+
+.buttonList {
+    float: left;
+}
+
+#contactinfo { 
+    font-size: large;
+    list-style-type: none;
+    font-family: 'Advent Pro';
+}
+
+.contactlabels {
+    font-weight: bold;
+}
+
+#homeinfo {
+    font-size: 1.5em;
+    font-family: 'Advent Pro';
+    float: right;
+    width: 50%;
+    top: 50%;
+}
+
+#selfImage {
+    float: left;
+    width: 50%;
+    top: 50%;
+}
+
+#pic {
+    border-radius: 40%/50%;
+    max-width: 35em;
+    max-height: 35em;
+}
+
+#pagebody {
+    padding-right: 10em;
+    padding-left: 10em;
+    padding-top: 3em;
+}
+
+#resumeDL {
+    font-family: 'Advent Pro';
+    font-size: 1em;
+}
+
+
